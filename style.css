@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+.body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    /* background-color: aqua; */
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    
+    
+}
+header{
+    height: 550px;
+    width: 100%;
+    /* background-color: rgb(24, 50, 74); */
+    background-color: #541554;
+    
+}
+.logo{
+   position: absolute;
+   left: 180px;
+   font-size: 22px;
+}
+.mid{
+    position: relative;
+    right: 200px;
+}
+.navigation ul{
+    display: flex;
+    list-style: none;
+}
+.navigation ul li{
+    /* background-color: #541554; */
+    padding: 10px 15px; 
+}
+.navigation ul li:hover{
+    text-decoration: underline;
+}
+.navigation ul li a{
+   font-size: 14px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.searchbar{
+    background-color: beige;
+    
+}
+.sign-in{
+    /* background-color: black; */
+    position: relative;
+    right: 15px;
+    font-size: 13px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.talk-sales{
+    
+    position: absolute;
+    right: 280px;
+    color: #fffafa;
+    padding:12px 27px ;
+    font-size: 14px;
+    border: white 1px solid ;
+    border-radius: 4px;
+    font-weight: bolder;
+    text-decoration: none;
+    f
+}
+
+.talk-sales:hover{
+    cursor: pointer;
+    border: 2px solid white;
+    text-decoration: none;
+  
+}
+.try-free{
+    background-color: white;
+    position: absolute;
+    right: 130px;
+    color: #541554;
+    font-size: 13px;
+    padding: 12px 20px;
+    border: white 2px solid;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.try-free:hover{
+    transform: scale(0.98);
+    cursor: pointer;
+}
